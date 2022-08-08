@@ -219,7 +219,7 @@ img:last-child {
   flex-direction: column;
   justify-content: flex-end;
   margin: 10px;
-  background-image: url(/IMAGES/9.0.ABSTRACT_OBJECT_DESIGN_2.png);
+  background-image: url(./IMAGES/9.0.ABSTRACT_OBJECT_DESIGN_2.png);
   background-size: cover;
   background-position: center;
   width: 270px;
@@ -230,7 +230,7 @@ img:last-child {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background-image: url(/IMAGES/ABTRACT_OBJ_DSGN_01.png);
+  background-image: url(./IMAGES/ABTRACT_OBJ_DSGN_01.png);
   background-size: cover;
   background-position: center;
   width: 270px;
