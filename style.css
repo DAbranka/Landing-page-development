@@ -1,0 +1,278 @@
+* {
+  /*margin: 0;*/
+  padding: 0;
+}
+
+body {
+  background-color: rgb(247, 247, 247);
+  font-family: "Poppins", sans-serif;
+  font-family: "Prompt", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+main section:not(:last-child) article {
+  margin-bottom: 50px;
+}
+/*-------------------n a v-----------------------------*/
+#header {
+  position: relative;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70px;
+  margin-top: 5px;
+  position: relative;
+}
+#logo {
+  width: 50px;
+}
+
+.toggle-button img:first-child,
+img:last-child {
+  width: 30px;
+  cursor: pointer;
+}
+
+.navbar-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  position: relative;
+  height: 150px;
+}
+
+.links {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.links p {
+  font-size: 14px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.links button {
+  color: black;
+  font-weight: bold;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: rgb(230, 234, 243);
+}
+
+.links a {
+  color: black;
+  text-decoration: none;
+}
+/*--------------------------m a i n---------------------------------*/
+
+/*--------------------------section-1---------------------------------*/
+
+.section1right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.section1 article h1 {
+  line-height: 20px;
+  font-size: 21px;
+  margin: 10px;
+  margin-bottom: 50px;
+  width: 200px;
+}
+#firstparagraph {
+  margin: 10px;
+}
+#cubeimg {
+  width: 150px;
+  height: 300px;
+  background-image: url(/IMAGES/pexels-uzunov-rostislav-5011647.jpg);
+  background-position: center;
+  background-size: 600px;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  position: relative;
+  right: 30px;
+}
+
+.numbers {
+  text-align: end;
+}
+
+.section1right p {
+  margin: 0px;
+}
+
+.numbers div:not(:last-child) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px 0px 40px;
+}
+.numbers div:first-child p:last-child {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.numbers div:not(:nth-child(1)) p:first-child {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.numbers div p {
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+/*--------------------------section-2---------------------------------*/
+.section2 {
+  background-color: rgb(230, 234, 243);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 70px;
+}
+
+.section2 img {
+  width: 120px;
+  border-radius: 25px;
+}
+
+.section2 article {
+  margin: 10px;
+}
+.section2 article h1 {
+  text-align: right;
+}
+
+.section2 article p {
+  text-align: right;
+}
+
+/*--------------------------section-3---------------------------------*/
+.section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section3 article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+}
+
+.section3 img {
+  width: 200px;
+  border-radius: 25px;
+}
+.section3 h1 {
+  text-align: center;
+  margin: 15px;
+}
+
+.section3 p {
+  text-align: center;
+  margin: 15px;
+}
+
+.section3 div {
+  background-color: rgb(230, 234, 243);
+  width: 150px;
+  height: 35px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*--------------------------section-4---------------------------------*/
+.section4 {
+  color: white;
+  background-color: rgb(230, 234, 243);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 650px;
+}
+
+.section4 div {
+  margin: 20px;
+}
+
+.section4 article:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 10px;
+  background-image: url(/IMAGES/9.0.ABSTRACT_OBJECT_DESIGN_2.png);
+  background-size: cover;
+  background-position: center;
+  width: 270px;
+  height: 270px;
+}
+
+.section4 article:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url(/IMAGES/ABTRACT_OBJ_DSGN_01.png);
+  background-size: cover;
+  background-position: center;
+  width: 270px;
+  height: 270px;
+  text-align: right;
+}
+/*------------------f o o t e r---------------------------*/
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  margin: 70px;
+}
+
+footer img {
+  width: 100px;
+}
+
+footer p {
+  width: 200px;
+  line-height: 30px;
+}
+
+footer div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 170px;
+  margin: 50px 0px 0px;
+}
+footer div img {
+  width: 25px;
+}
+
+@media (max-width: 400px) {
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+  .navbar-links.active {
+    display: flex;
+  }
+}
